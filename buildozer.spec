@@ -1,6 +1,6 @@
 [app]
 # اسم التطبيق
-title = Xcoin
+title = MyApp
 
 # اسم الحزمة (يفضل أن يكون فريدًا)
 package.name = myapp
@@ -32,8 +32,8 @@ requirements = python3, kivy, threading, pyjnius, uiautomator2, adb-shell
 # الصلاحيات المطلوبة
 android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE, SYSTEM_ALERT_WINDOW, WAKE_LOCK
 
-# إعداد المعمارية
-android.arch = arm64-v8a, armeabi-v7a
+# إعداد المعمارية (استخدم `android.archs` بدلاً من `android.arch`)
+android.archs = arm64-v8a, armeabi-v7a
 
 # إعداد نوع الإقلاع (bootstrap الجديد)
 p4a.bootstrap = sdl2
