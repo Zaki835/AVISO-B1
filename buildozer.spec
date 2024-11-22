@@ -11,6 +11,9 @@ package.domain = org.example
 # الملف الرئيسي
 source.main = main.py
 
+# المجلد الذي يحتوي على ملفات المشروع (عادة يكون ".")
+source.dir = .
+
 # إصدار التطبيق
 version = 0.1
 
@@ -32,5 +35,5 @@ android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE, S
 # إعداد المعمارية
 android.arch = arm64-v8a, armeabi-v7a
 
-# إعداد نوع الإقلاع
-android.bootstrap = sdl2
+# إعداد نوع الإقلاع (bootstrap الجديد)
+p4a.bootstrap = sdl2
