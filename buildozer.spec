@@ -1,6 +1,6 @@
 [app]
 # اسم التطبيق
-title = MyApp
+title = Xcoin
 
 # اسم الحزمة (يفضل أن يكون فريدًا)
 package.name = myapp
