@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Aviso Auto Viewer",
+    "version": "1.0",
+    "description": "إضافة لمشاهدة الفيديوهات تلقائيًا في Aviso.bz",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["https://aviso.bz/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://aviso.bz/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
