@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "إضافة تقوم تلقائياً بمشاهدة الفيديوهات وتأكيدها في موقع ",
   "permissions": ["scripting", "tabs"],
-  "host_permissions": ["https://payup.video/*"],
+  "host_permissions": ["https://aviso.bz/tasks-youtube"],
   "content_scripts": [
     {
       "matches": ["https://payup.video/*"],
