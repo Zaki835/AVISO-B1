@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "PayUp Auto Task Bot",
   "version": "1.0",
-  "description": "إضافة تقوم تلقائياً بمشاهدة الفيديوهات وتأكيدها في موقع PayUp",
+  "description": "إضافة تقوم تلقائياً بمشاهدة الفيديوهات وتأكيدها في موقع ",
   "permissions": ["scripting", "tabs"],
   "host_permissions": ["https://payup.video/*"],
   "content_scripts": [
@@ -14,8 +14,10 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": 
-  icon.png
-  }
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
   }
 }
